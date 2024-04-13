@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORI-CM-Bush Temperature Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="ori-cm-bush">
+    <h1>ORI-CM-Bush</h1>
+    <div class="alarmSetting">
+        <p class="T">Temperature in °C</p>
+        <p class="hot">Hotspot above <span id="hotspot">--</span>°C</p>
+        <p class="hi">High above <span id="high">--</span>°C</p>
+    </div>
+    <div class="alarm">
+        <div class="temprature">
+            <p>Temperature 1: <span id="temp1">--</span>°C</p>
+            <p>Temperature 2: <span id="temp2">--</span>°C</p>
+            <p>Temperature 3: <span id="temp3">--</span>°C</p>
+        </div>
+        <div id="status">
+        </div>
+    </div>
+<div class="changeSetting">
+    <button id="btnHigh">Change High</button>
+    <button id="btnHot" onclick="">Change Hotspot</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
